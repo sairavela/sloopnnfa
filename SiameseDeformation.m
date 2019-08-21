@@ -1,3 +1,5 @@
+%% Description:
+
 clear all;
 
 %outputFolder = fullfile('/Users/kshitijbakliwal/Dropbox/mit/data/geckodata');
