@@ -7,15 +7,7 @@
 
 clear all;
 
-%outputFolder = fullfile('/Users/kshitijbakliwal/Dropbox/mit/data/geckodata');
-%rootFolder = fullfile(outputFolder, 'patches');
-
 indices = 1:251;
-
-%imds = imageDatastore(fullfile(rootFolder), 'IncludeSubFolders', true, 'LabelSource', 'foldernames', 'FileExtensions', {'.mat', '.jpg'}, 'ReadFcn', @customReadFcn);
-%imageStore = subset(imds, indices);
-
-%[trainSet, testSet] = splitEachLabel(imageStore, 2);
 
 load('dispWorkspace6');
 
