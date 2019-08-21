@@ -1,9 +1,4 @@
 %% Description:
-% CODE TO RUN THE NEURAL NETWORK ON GECKO DATA.
-% 1. Loads the workspace containing the Field Alignment variables (qxs, qys, divVals etc.).
-% 2. Creates input data for pairs of images with Field Alignment and image difference variables as input features.
-% 3. Runs a Convolutional Neural Network on this Paired Input Data and gets accuracy on test pairs. 
-%%
 
 clear all;
 
