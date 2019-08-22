@@ -1,3 +1,16 @@
+%% Description:
+% CODE TO USE FIELD ALIGNMENT ALGORITHM AND OBTAIN THE PAIRWISE DISPLACEMENT AND DIVERGENCE VECTORS
+% 1. Creates image datastore and reads images using CustomReadFcn.m function file.
+% 2. For each pair of images (non-symmetric), the field alignment is used to obtain the displacement vectors.
+% 3. The divergence of the disp. vectors is also calculated and stored in a global variable.
+% 4. The displacement matrices and the divergence matrix are saved as a workspace.
+% 
+%
+% IMPORTANT NOTE:
+% 1. Code assumes the file is in location FA2D/examples/ (or all the corresponding code files in FA2D  must be added to the path).
+% 2. The files CustomReadFcn.m and getNormalized.m should also be recognizable (path should be added) for code to run correctly.
+%%
+
 close all;
 clear all;
 
