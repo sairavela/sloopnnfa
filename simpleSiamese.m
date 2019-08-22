@@ -1,3 +1,12 @@
+%% Description:
+% CODE TO RUN SIAMESE NN WITH TRIPLET LOSS ON IMAGE MATRICES DIRECTLY
+% 1. Retrieve images and create image datastores from Gecko dataset.
+% 2. Define the NN layers, using the Triplet layer as a loss function.
+% 3. Prepare proper dataset containing Triplets in a sequential manner.
+% 4. Dummy train the NN and get harder triplets from the results obtained.
+% 5. Get the accuracy on Train and Test data (nearest neighbour kind of way).
+%%
+
 try
 	nnet.internal.cnngpu.reluForward(1);
 catch ME
